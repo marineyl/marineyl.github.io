@@ -1,0 +1,85 @@
+body {
+	background-color: #0B29B3;
+	background-image: url(../images/bg.jpg);
+
+/* the 2 dots and / is the way to tell the computer to go back one level/folder. So if you need to go back 2 levels you add this sequence twice */
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	font-family: Helvetica, Arial, sans-serif;
+
+
+
+}
+
+.main {
+	background-color: rgba(255,255,255,0.8);
+	max-width: 600px;
+	margin: 25px auto;
+	padding: 20px;
+	box-shadow: 0 0 20px 5px grey;
+
+
+/* first number is the vertical positon, the second is the horizontal positon, then the blur, then the size  then the color. One more than when using the texte shadow property */ 
+
+}
+
+
+h1{
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+	padding: 5px;
+	text-shadow: 0px 0px 20px grey;
+	font-family: 'David Libre', serif;
+
+/* first number is the verticale positon, the second is the horizontal positon, then the size, then the colour */
+
+
+
+}
+h2{
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: normal;
+	letter-spacing: 5px; 
+
+}
+
+h3{
+
+	margin-bottom: 0;
+}
+
+
+h3:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+img{
+	display: block;
+	 margin: 0 auto;
+	 border: 5px solid grey; 
+	 border-radius: 100px;
+}
+p,
+ul,
+ol {
+	line-height: 1.6; 
+	list-style: none;
+	padding-left: 0;
+}
+a{
+	font-weight: bold;
+	text-decoration: none;
+	color: blue;
+}
+a:hover {
+	color: grey;
+	text-decoration: underline;
+
+
+}
+/* This is a CSSS comment */ 
